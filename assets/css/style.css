@@ -1,0 +1,78 @@
+ body {
+    background: url(https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) 
+    rgb(75, 74, 74); 
+} 
+
+.jumbotron {
+    color: whitesmoke;
+    background-color: rgb(58, 2, 58);
+    font-family: cursive;
+}
+
+#buttons {
+    text-align: center;
+    background: url(https://images.pexels.com/photos/301599/pexels-photo-301599.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    margin-right: 30px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+
+#start {
+    background: orangered;
+    color: white;
+    Padding: 20px 40px 20px 40px;
+    font-family: cursive;
+}
+
+#submitQuiz {
+    background: orangered;
+    color: white;
+    Padding: 20px 40px 20px 40px;
+    font-family: cursive;
+}
+
+#display {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    font-family: cursive;
+}
+
+
+#formQuiz {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+#formSubmit {
+    text-align: center;
+}
+
+#quizResults {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+/* media queries */
+@media (max-width: 940px) {
+
+    .jumbotron .footer1 #buttons #starrt #submitQuiz #display #formQuiz #formSubmit #quizResults {
+        width: 100%;
+      }
+}
+
+@media (max-width: 768px) {
+
+    .jumbotron .footer1 #buttons #starrt #submitQuiz #display #formQuiz #formSubmit #quizResults {
+        width: 100%;
+      }
+    }
+    
+    @media (max-width: 640px) {
+        .jumbotron .footer1 #buttons #starrt #submitQuiz #display #formQuiz #formSubmit #quizResults  {
+            width: 100%;
+          }
+    }

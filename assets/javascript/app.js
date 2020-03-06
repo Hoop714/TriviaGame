@@ -4,7 +4,7 @@ window.onload = function() {
     };
 
 /* Declare Variables, includes array for storing customer responses and array of questions */
-var time = 60;
+var time = 120;
 var intervalId; 
 var clockRunning = false;
 var correctAnswers = 0;
@@ -12,7 +12,7 @@ var incorrectAnswers = 0;
 var skippedQuestions = 0;
 var userSelection = [];
 var questionsList = [{
-question: "How many starts are in the Milky Way?",
+question: "How many stars are in the Milky Way?",
 choices: ["Less than 25 Million", "25-50 Million", "50-100 Million", "Over 100 Million"],
 answer: 3
 },

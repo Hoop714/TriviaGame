@@ -93,7 +93,7 @@ function start() {
         if (!clockRunning) {
             intervalId = setInterval(decrement, 1000);
             clockRunning = true;
-            $("#display").text("01:00");
+            $("#display").text("02:00");
             $("#start").hide();
             $("#buttons").hide();
             writeQuestions();
